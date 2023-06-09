@@ -1,0 +1,135 @@
+header{
+    margin-top: 10px;
+}
+.icon{
+    margin-left: 1112px;
+    margin-top: -23px;
+}
+.fa-twitter{
+    margin-left: 10px;
+}
+.fa-instagram{
+    margin-left: 10px;
+}
+.fa-ship{
+    margin-left: 10px;
+}
+.nav-bar{
+    margin-left: 100px;
+    height: 25px;
+    width: 80%;
+    margin-top: 40px;
+    background: gainsboro;
+}
+nav{
+    margin-left: 100px;
+    margin-top: -40px;
+
+}
+nav ul li {
+    list-style: none;
+    padding-left: 80px ;
+    text-align: center;
+    float: left;
+}
+nav ul li  a{
+    color: black;
+    text-decoration: none;
+}
+.container-1{
+    width: 100%;
+    background-image: url(pic/MAERSK_MC_KINNEY_MÖLLER_&_MARSEILLE_MAERSK_\(48694054418\).jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-box{
+    padding-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.sidebar{
+    position: absolute;
+    z-index: 4;
+    width: 20%;
+    height: 80vh;
+    
+}
+.main-content{
+    background-attachment: fixed;
+    background: white;
+    margin-left: 256px;
+
+}
+.arrow{
+    margin-left: 925px;
+    margin-top: -20px;
+}
+.type-transport{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.type-transport img{
+    height: 140px;
+}
+.text-box-2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+@media(max-width: 1023px){
+
+    header{
+        font-size: 12px;
+        width: 500px;
+     }
+     .nav-bar{
+        width: 400px;
+        margin-left: 30px;
+     }
+     .icon{
+        margin-top: 40px;
+        margin-left: 45px;
+     }
+     nav{
+        padding-top: 1.4rem;
+        margin-left: -20px;
+     }
+         nav ul li {
+             list-style: none;
+             padding-left: 10px;
+             text-align: center;
+             float: left;
+         }
+    
+         nav ul li a {
+             color: black;
+             text-decoration: none;
+         }
+         .arrow{
+            margin-left: 340px;
+         }
+    .container-1{
+        width: 500px;
+    }
+        .sidebar {
+            position: absolute;
+            z-index: 4; 
+            width: 200px;
+            height: 100vh;
+    
+        }
+
+        .main-content {
+            background-attachment: fixed;
+            background: white;
+            margin-left: 80px;
+    
+        }
+        .type-transport {
+            width: 200px;
+            margin-top: 30px;
+            margin-left: 150px;
+}
+ }
