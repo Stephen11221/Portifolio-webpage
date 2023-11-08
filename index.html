@@ -1,304 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portifolio page</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="bootstrap.css">
-</header>
-
+</head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg shadow ">
-            <div class="container">
-                <a href="" class="navbar-brand text-success">Steven<span class="text-danger">Develop <i
-                            class="fa fa-github"></i></span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                    aria-expanded="false"><span class="navbar-toggler-icon "></span> </button>
-                <div class="collapse navbar-collapse" id="navbar">
-                    <div class="navbar-nav  text-light">
-                        <a href="#home" class="nav-link ">Home</a>
-                        <a href="#about" class="nav-link ">About</a>
-                        <a href="#services" class="nav-link">Services</a>
-                        <a href="#products" class="nav-link ">Products</a>
-                        <a href="#contactus" class="nav-link ">Contacts</a>
+    <div class="circle "></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="content-banner">
+            <nav class="navbar navbar-expand-lg  navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><span class="text-success btn btn-outline-success"><span class="text-danger">SteveSoftComp<span><i class="fa fa-user-secret text-dark"></i></span></span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse   " id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active-link" aria-current="page" href="#index">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Projects <i class="fa fa-github"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item text-success" href="#most-order"> </a></li>
+                                    <li><a class="dropdown-item text-success" href="#popular-order"></a></li>
+                                    <li>
+                                        <hr class="dropdown-divider bg-secondary"> 
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"> </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#contact" tabindex="-1" aria-disabled="true">Contact
+                                    </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </nav> <br> <br>
-        <section class="home pt-5 text-dark" id="home">
+            </nav>
+        <div class="container  " id="home">
             <div class="row">
-                <div class="col-lg-6 home-data">
-                    <h1>Hello, I'm</h1>
-                    <h2 class="text-success">Stephen Muema </h2>
-                    <h3 class="pt-1 ">Front-end Developer</h3>
-                    <p>with knowledge in web development and design, I offer the best project resulting in quality work
-                    </p>
-                    <a class="btn btn-success text-warning" href="#contactus">Let's talk</a>
-                    <div class="social-media  text-white-50">
-                        <a href="https://github.com/Stephen11221" class="nav-link"><i
-                                class="fa fa-github text-center"></i></a>
-                        <a href="" class="nav-link"><i class="fa fa-dribbble text-center"></i></a>
-                        <a href="" class="nav-link"><i class="fa fa-linkedin text-center"></i></a>
-                    </div>
+                <div class="col-lg-6 p-2 p-3">
+                    <h2 class="text-success mt-n1">Hello!</h2>
+                    <h3>My Name Stephen Muema</h3>
+                    <p class="text-succes">I am a Software engineer. I have high level experience in web development and Android programing. knowladge in producing high quality Projects</p>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href=""><span><i class="fa fa-fa"></i></span></a></li>
+                            <li><a href=""><span><i class="fa fa-instagram"></i></span></a></li>
+                            <li><a href=""><span><i class="fa fa-github"></i></span></a></li>
+                            <li><a href=""><span><i class="fa fa-linkedin"></i></span></a></li>
+                        </ul>
+                    </div> 
+                <a href="#contact" class="btn btn-success  bt-line-contact  text-white btn btn-outline-success  ">Contact me <span><i class="fa fa-play"></i></span></a>
                 </div>
-                <div class="col-lg-6">
-                    <div class="img-frame ">
-                        <img src="my-imge/MyEditedPhoto5_13_2023_2_08_29_PM.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="grid text-dark pt-4 " id="about">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="img-frame-about">
-                        <img src="my-imge/MyEditedPhoto5_13_2023_2_08_29_PM.png" class="about-amg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h2>About me</h2>
-                    <p>Front-end Developer, I create web site with UI / UX user interface, I have two years experience
-                        and my client are happy with the project i have carried out. </p>
-                    <a href="#contactus" class="btn btn-success p-2">Contact me</a>
-                </div>
+                <div class="col-lg-6 p-2">
+                    <div class="img-frame" >
+                        <img src="my-imge/" alt="">
 
-            </div>
-
-
-        </section>
-        <section id="services" class="text-dark pt-4">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="text-success">My Skills</h2>
-                    <p>To see my skills visit my platform for developer <a href="https://github.com/Stephen11221"
-                            class="text-warning text-decoration-none">Stephen11221</a> or click here </p>
-                    <a href="https://github.com/Stephen11221" class="btn btn-success">See projects</a>
-                </div>
-            </div> <br>
-            <ol class="list-group">
-                <li>HTML and CSS</li>
-                <li>Bootstrap 5</li>
-                <li>Figma</li>
-                <li>AWS Cloud Computing (Web-hosting)</li>
-                <li>Git & Github <span><i class="fa fa-github  "></i></span></li>
-                <li>Android Programming</li>
-            </ol>
-        </section>
-        <h3 class="text-success">My <span class="text-dark ">Services</span></h3>
-        <h6 class="text-danger">What i do</h6>
-        <div class="grid-display text-white-50">
-            <div class="service-grid-1">
-                <div class="card shadow text-dark">
-                    <div class="card-header text-center">
-                        <span>Web Developer</span>
-                    </div>
-                    <div class="card-body">
-                        <p>Development of custom web pages using modern techonologies and libraries </p>
-                        <span><i class="fa fa-th-list fa-2x float-end"></i></span>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="service-grid-2">
-                <div class="card shadow text-dark">
-                    <div class="card-header text-center">
-                        <span>UI and XU Designer</span>
-                    </div>
-                    <div class="card-body">
-                        <p>I offer design of web interface and mobile application . Design made in Figma</p>
-                        <span><i class="fa fa-newspaper-o  float-end fa-2x"></i></span>
                     </div>
                 </div>
             </div>
         </div>
-        </section>
-        <section id="products" class="p-5 pt-5">
-            <h1 class="text-center text-warning">My projects </h1>
-            <p class="text-center text-white-50 btn btn-success">This projects are demo please do not download them
-                <span><i class="fa fa-warning text-danger"></i></span>
-            </p>
+        <div class="container" id="about"> <br> <br> <br>
+            <div class="spinner-border text-danger float-end" role="status">
+                <span class="visually-hidden"></span>
+            </div>
+            <h2 class="text-center">About </h2>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="project-1">
+                    <div class="img-frame-about"></div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="" alt="" class="about-img">
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container " id="services">
+            <h2 class="text-center">Web project</h2>
+            <div id="web-development">
+                <div class="row">
+                   <div class="col-lg-8">
                         <div class="card">
-                            <div class="card-header">
-                                <img src="my-imge/project.png" alt="">
-                                <div class="project-tittle">
-                                    <h4>Web</h4>
-                                    <p>Groccery</p>
-                                    <a href="https://github.com/Stephen11221/Groccery-web" target="_blank"
-                                        rel="noopener noreferrer" class="btn btn-success text-warning">View demo</a>
+                            <div class="card-header btn-outline-primary">
+                                <span>Dashboard</span>
+                            </div>
+                            <div class="card-body">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="my-imge/project 4.png" class="d-block w-100 img-thumbnail" alt="">
+                                
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="my-imge/project 2 .png" class="d-block w-100 img-thumbnail" alt="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="my-imge/project-7.png" class="d-block w-100 img-thumbnail" alt="">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="my-imge/project-5.png" alt="" class="d-block w-100 img-thumbnail">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="my-imge/project-9.bmp" alt=""class="d-block w-100 img-thumbnail">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="my-imge/project.png" alt="" class="d-block w-100 img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                            class="active text-success" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                            aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>                                            
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="5" aria-label="Slide 6"></button>
+                                    </div>
+                                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                                        <span class="visually-visible text-danger">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide="next">
+                                        <span class="carousel-contfrrol-next-icon" aria-hidden="true"></span>
+                                        <span class="text-danger visually-visible">Next</span>
+                                    </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="project-2">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="my-imge/project 2 .png" alt="">
-                                <div class="project-tittle">
-                                    <h4>Web</h4>
-                                    <p>Admindashboard for making order</p>
-                                    <a href="https://github.com/Stephen11221/Dashboard-2" target="_blank"
-                                        rel="noopener noreferrer" class="btn btn-success text-warning">View demo</a>
-                                </div>
-                            </div>
+                   </div>
+                   <div class="col-lg-4">
+                        <h4 class="text-success">Web page link</h4>
+                        <div class="card p-2 pt-3 text-succes">
+                            <a href="https://stephen11221.github.io/Grocery-web-update/" class="text-success" target="_parent">Grocery-web</a>
+                            <a href="https://stephen11221.github.io/kiligate/" class="text-success" target="_parent" rel="noopener noreferrer">kilimani shop</a>
+                            <a href="https://stephen11221.github.io/Groccery-web/" class="text-success" target="_parent">Groccery </a>
+                            <a href="https://stephen11221.github.io/Lifelineshop/" class="text-succes" target="_parent" >Electronic shop</a>
                         </div>
-                    </div>
+                   </div> 
                 </div>
-                <div class="col-lg-4">
-                    <div class="project-3">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="my-imge/project 4.png" alt="">
-                                <div class="project-tittle" style="margin-top: -180px;">
-                                    <h4>Web</h4>
-                                    <p>Travel and discover</p>
-                                    <p class="px-3">To view this project you must use PC or laptop <i
-                                            class="fa fa-warning text-warning"></i></p>
-                                    <a href="project/Travelling/index.html" target="_blank" rel="noopener noreferrer"
-                                        class="btn btn-success text-warning ">View demo</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <br> <br> <br>
-            <h3 class="text-warning text-center">My recent projects</h3>
+            </div>
+        </div>
+        <div class="container " id="contact">
+            <hr class="bg-secondary">
+            <h2 class="text-success text-center">Contact </h2>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="project-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="my-imge/project-5.png" alt="">
-                                <div class="project-tittle">
-                                    <h4>Web</h4>
-                                    <p>Shipping Cargo Africa web</p>
-                                    <a href="project/ship-cargo/index.html" target="_blank" rel="noopener noreferrer"
-                                        class="btn btn-success text-warning">View demo</a>
-                                </div>
+                <div class="col-lg-6">
+                    <form action="index.html" class="form " method="post">
+                        <div class="row">
+                            <div class="col-lg-6 ">
+                                <label for="">Name</label>
+                                <input type="text" class="form-control form-input">
+                            </div>
+                            <div class="col-lg-6">
+                                <label for="">Email</label>
+                                <input type="email" name="" id="" class="form-control form-input">
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="project-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="my-imge/project-8.png" alt="">
-                                <div class="project-tittle">
-                                    <h4>Shopping Website</h4>
-                                    <p>Online Shopping </p>
-                                    <a href="https://github.com/Stephen11221/kiligate" target="_blank"
-                                        rel="noopener noreferrer" class="btn btn-success text-warning">View demo</a>
-                                </div>
+                        <div class="row pt-3">
+                            <div class="col-lg-9">
+                                <label for="">Message</label>
+                                <textarea name="" id="" cols="30" rows="10" class="form-control form-input"></textarea>
                             </div>
                         </div>
-                    </div>
+                        <div id="liveAlertPlaceholder">
+                            successfully send
+                        </div>
+                        <button type="button" class="btn btn-success  text-light" id="liveAlertBtn">Send <span><i
+                                    class="fa fa-telegram"></i></span></button>
+                    </form>
                 </div>
-                <div class="col-lg-4">
-                    <div class="project-7">
-                        <div class="card">
-                            <div class="card-header">
-                                <img src="my-imge/project-9.bmp" alt="">
-                                <div class="project-tittle">
-                                    <h4>Sign up page</h4>
-                                    <p>Do not answer sign this is a demo</p>
-                                    <a href="E-commerce-web/Sign-in.html" target="_blank" rel="noopener noreferrer"
-                                        class="btn btn-success text-warning">View demo</a>
-                                </div>
-                            </div>
+                <div class="col-lg-6"> <br>
+                    <div class="card p-2 shadow">
+                        <div class="box-icon">
+                            <span><i class="fa fa-phone"></i></span>
+                            <span>0769 747 803</span> <br> <br>
+                            <span><i class="fa fa-envelope"></i></span>
+                            <span>muema1476@gmail.com</span><br> <br> 
+                            <span><i class="fa fa-map-marker spinner-border text-succes"></i></span>  
+                            <span>Nairobi kilimani </span> <br> <br>
+                            <span><i class="fa fa-facebook"></i></span>
+                            <span>Steve Muema Dev</span> <br> <br>
+                            <span><div class="spinner-border text-success"></div></span>
+                            <span><div class="spinner-border text-success"></div></span>
+                            <span><div class="spinner-border text-success"></div></span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="contactus" class="text-dark">
-            <h1 class="text-center ">Contact me</h1>
-            <h4 class="text-center ">Talk to me</h4>
-            <form action="index" id="contact-form" method="post" class="text-dark p-3 pt-3  ">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <label for="">Name</label>
-                        <input type="text" class="form-control text-dark" id="name">
-                    </div>
-                    <div class="col-lg-6">
-                        <label for="">Email</label>
-                        <input type="text" class="form-control text-dark" id="email">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <label for="">Message</label>
-                        <textarea name="" class="form-control text-dark" id="message" cols="30" rows="10"></textarea>
-                    </div>
-                </div> <br>
-                <button class="btn btn-success text-white" id="submit">Submit</button>
-            </form>
 
-        </section>
-
+        </div> <br> <br>
     </div>
-    <footer class="shadow  text-white">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4">
-                    <h5 class="text-center text-success pt-5">Stephen Muema Mutui</h5>
-                    <h6 class="text-white-50 text-center text-decoration-line">Front-End Developer</h6>
-                </div>
-                <div class="col-lg-4">
-                    <div class="social-media pt-5">
-                        <a href="Facebook.com" class="nav-link "><i class="fa fa-facebook"></i></a>
-                        <a href="" class="nav-link "><i class="fa fa-instagram"></i></a>
-                        <a href="" class="nav-link"><i class="fa fa-linkedin"></i></a>
-                        <a href="" class="nav-link"><i class="fa fa-whatsapp"></i></a>
-                        <a href="" class="nav-link "><i class="fa fa-twitter"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <p class="text-white-50 pt-5 text-center">&copy; coppyright Seniordev. All right reserved</p>
-                    <p class="text-center text-white-50">Thank for your value <span><i
-                                class="fa fa-heart text-white"></i></span></p>
-                </div>
+    <footer  class="container-fluid bg-dark text-light">
+        <div class="row">
+            <div class="col-lg-4">
+                <p class="text-success">For more information call me 0769 747 803</p>
+                <p class="text-success">or use the contact form in the website</p>
             </div>
-
         </div>
-        <a href="#home" class="button-up-dark text-warning" id="upscroll"><i class="fa fa-arrow-up"></i></a>
+
     </footer>
-    <script>
-        const contactForm = document.getElementById('contact-form')
-        const sendEmail = (e) => {
-            e.preventDefault()
-
-            emailjs.sendform()
-
-                .then(() => {
-                    contactMessages.textContent = 'Message send successfull '
-                    setTimeout(() =>
-                        contactMessages.textContent = ''
-                    )
-                }, 300)
-
-        }
-
-
-
-        const sr = ScrollReveal({
-            origin: 'top',
-            distance: '50px',
-            duration: 2500,
-        })
-        sr.reveal('.home-data') 
-    </script>
-    <script src="bootstrap.bundle.js.map"></script>
-    <script src="bootstrap.bundle.js"></script>
+<script src="bootstrap.bundle.js.map"></script>
+<script src="bootstrap.bundle.js"></script>
 </body>
-
 </html>
