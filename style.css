@@ -62,21 +62,20 @@ nav{
     list-style: none;
     float: left;
     text-align: right;
-    margin-left: 30px;
+    margin-left: 15px;
     animation: all 8000s infinite;
-    padding: 10px 16px;
+    padding: 7px 7px;
     background: greenyellow;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .social-media ul li a{
  color: black;
- font-size: larger;
  font-weight: normal;
 
 }
 .bt-line-contact{
-    margin-top: 80px;
-    margin-left: -300px;
+    margin-top: 170px;
+    margin-left: -150px;
 }
 .form-input{
     border-bottom: 3px groove green;
